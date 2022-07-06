@@ -87,6 +87,9 @@ h1{
     box-shadow: 5px 5px 30px gray;
     
 }
+.donation-plan{
+    margin-bottom: 5%;
+}
 .mission-text{
     text-align: center;
     margin-top: 100px;
@@ -99,6 +102,7 @@ h1{
 .mission-box{
     display: flex;
     justify-content: center;
+   
 }
 .mission-icon{
     width: 300px;
@@ -122,20 +126,34 @@ h1{
 .about-donation{
     display: flex;
     width: 80%;
+    margin-bottom: 80px;
+    
 }
 .donate-hospital{
     width: 50%;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 10%;
+    
 }
 .donate-hospital h1{
-    font-size: 20px;
+    font-size: 40px;
 }
-donate-hospital p{
+.donate-hospital p{
     text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 .about-photo{
-    width: 100px;
+    width: 600px;
     
     
 }
+#donate-here-button{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 250, 250);
+    padding: 10px 20px;
+    background-image: linear-gradient(tomato, orange);
+    border-radius: 5px;
+   
+} 
