@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(225, 246, 246);
 }
 h1{
     font-size: 50px;
@@ -19,7 +20,7 @@ h1{
 .header-text{
     color: white;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 200px;
     padding-bottom: 70px;
     
 }
@@ -157,3 +158,43 @@ h1{
     border-radius: 5px;
    
 } 
+.subscribtion-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribtion-text h1{
+    font-size: 40px;
+}
+.subscribtion-text p{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+#email-subscription{
+    border: none;
+    font-size: 20px;
+    padding: 10px; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(81, 70, 70);
+}
+#subcribe-button{
+    background-color: rgb(73, 73, 40);
+    width: 120px;
+    border: none;
+    padding: 10px;
+    color: rgb(240, 228, 228);
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -10px;
+}
+footer {
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 80px;
+    color: rgb(238, 242, 246);
+    background: rgba(75, 59, 1, 0.808);
+}
