@@ -19,7 +19,7 @@ h1{
 .header-text{
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 70px;
     
 }
@@ -87,27 +87,27 @@ h1{
     box-shadow: 5px 5px 30px gray;
     
 }
-.donation-plan-text{
+.mission-text{
     text-align: center;
     margin-top: 100px;
 }
-.donation-plan-text p{
+.mission-text p{
     margin-left: 20%;
     margin-right: 20%;
     padding-bottom: 80px;
 }
-.donation-plan-box{
+.mission-box{
     display: flex;
     justify-content: center;
 }
-.donation-plan-icon{
+.mission-icon{
     width: 300px;
     height: 250px;
     margin: 30px;
     padding: 20px;
    
 }
-.donation-plan-icon h1{
+.mission-icon h1{
     font-size: 30px;
 }
 .icon-background1{
@@ -121,11 +121,21 @@ h1{
 }
 .about-donation{
     display: flex;
+    width: 80%;
 }
-.hello-sylet{
+.donate-hospital{
     width: 50%;
-    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.donate-hospital h1{
+    font-size: 20px;
+}
+donate-hospital p{
+    text-align: justify;
 }
 .about-photo{
-    width: 80%;
+    width: 100px;
+    
+    
 }
