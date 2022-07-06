@@ -50,7 +50,7 @@ h1{
 }
 .donate-today-amount{
     display: flex;
-    padding-left: 30%;
+    padding-left: 25%;
     padding-bottom: 30px;
     font-size: 30px;
     font-weight: 600;
@@ -98,4 +98,34 @@ h1{
 }
 .donation-plan-box{
     display: flex;
+    justify-content: center;
+}
+.donation-plan-icon{
+    width: 300px;
+    height: 250px;
+    margin: 30px;
+    padding: 20px;
+   
+}
+.donation-plan-icon h1{
+    font-size: 30px;
+}
+.icon-background1{
+    background-color: rgb(224, 237, 225);
+}
+.icon-background2{
+    background-color: rgb(215, 234, 243);
+}
+.icon-background3{
+    background-color: rgb(243, 207, 207);
+}
+.about-donation{
+    display: flex;
+}
+.hello-sylet{
+    width: 50%;
+    margin: 5%;
+}
+.about-photo{
+    width: 80%;
 }
